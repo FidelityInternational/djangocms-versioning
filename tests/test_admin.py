@@ -1,7 +1,8 @@
 from unittest.mock import patch
-import datetime, pytz
+import datetime
 
 from freezegun import freeze_time
+import pytz
 
 from django.apps import apps
 from django.contrib import admin
