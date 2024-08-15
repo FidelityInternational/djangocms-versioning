@@ -9,5 +9,6 @@ beautifulsoup4
 django-classy-tags<2.0.0
 django-sekizai<2.0.0
 
+https://github.com/django-cms/django-cms/tarball/release/4.0.x#egg=django-cms
 # Get the lastest cms v4 compatible djangocms-text-ckeditor
-https://github.com/divio/djangocms-text-ckeditor/tarball/support/4.0.x#egg=djangocms-text-ckeditor
+https://github.com/django-cms/djangocms-text-ckeditor/tarball/support/4.0.x#egg=djangocms-text-ckeditor

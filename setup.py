@@ -5,7 +5,7 @@ import djangocms_versioning
 
 INSTALL_REQUIREMENTS = [
     "Django>=1.11,<3.0",
-    "django-cms",
+    "django-cms<4.1.0",
     "django-fsm>=2.6,<2.7"
 ]
 
@@ -38,12 +38,12 @@ setup(
     author="Divio AG",
     test_suite="test_settings.run",
     author_email="info@divio.ch",
-    url="http://github.com/divio/djangocms-versioning",
+    url="http://github.com/django-cms/djangocms-versioning",
     license="BSD",
     zip_safe=False,
     tests_require=TEST_REQUIREMENTS,
-    dependency_links=[
-        "http://github.com/divio/django-cms/tarball/release/4.0.x#egg=django-cms-4.0.0",
-        "https://github.com/divio/djangocms-text-ckeditor/tarball/support/4.0.x#egg=djangocms-text-ckeditor-4.0.x",
-    ]
+    # dependency_links=[
+    #     "https://github.com/django-cms/django-cms/tarball/release/4.0.x#egg=django-cms",
+    #     "https://github.com/django-cms/djangocms-text-ckeditor/tarball/support/4.0.x#egg=djangocms-text-ckeditor",
+    # ]
 )
